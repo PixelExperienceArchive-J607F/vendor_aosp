@@ -112,8 +112,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
 # TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
+#PRODUCT_PACKAGES += \
+#    TouchGestures
 
 # One Handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -188,6 +188,7 @@ TARGET_INCLUDE_STOCK_ARCORE ?= true
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 TARGET_SUPPORTS_QUICK_TAP ?= false
 TARGET_SUPPORTS_CALL_RECORDING ?= true
+TARGET_SUPPORTS_GMS_GAME_SERVICE := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
